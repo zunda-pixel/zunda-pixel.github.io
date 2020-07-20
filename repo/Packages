@@ -2,7 +2,7 @@ Name: ChangeKeySound
 Version: 1.0.1
 Package: com.zunda.changekeysound
 Description: Change Keyboard Sound!
-Depends: mobilesubstrate
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader
 Section: Tweaks
 Depiction: https://zunda-hack.com/
 Icon: https://zunda-hack.com/
