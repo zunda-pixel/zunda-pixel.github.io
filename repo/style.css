@@ -2,3 +2,10 @@ ul li.has-icon {
     margin-left: 59px;
     color: #FFFFFF;
 }
+ul li .icon {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 29px;
+    height: 29px
+}
