@@ -3,7 +3,7 @@ Architecture: iphoneos-arm
 Version: 1.0.1
 Section: Tweaks
 Maintainer: zunda
-Depends: mobilesubstrate, ws.hbang.common, preferenceloader
+Depends: mobilesubstrate
 Filename: ./debs/com.zunda.changekeysound_1.0.1_iphoneos-arm.deb
 Size: 266362
 MD5sum: 082bcc8a24c552eef8c10ba43435a699
@@ -15,8 +15,4 @@ Description: Change Keyboard Sound!
 Name: ChangeKeySound
 Author: zunda
 Depiction: https://zunda-hack.com/
-
-//Tag: compatible_min::ios11.0, compatible_max::ios13.5
-//SileoDepiction: https://zunda-hack.com/.json
-//Icon: https://zunda-hack.com/
 
