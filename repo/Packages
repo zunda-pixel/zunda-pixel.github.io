@@ -1,0 +1,20 @@
+Name: ChangeKeySound
+Package: com.zunda.Sound
+Description: Change Keyboard Sound!
+Depends: mobilesubstrate
+Section: Tweaks
+Depiction: https://repo.packix.com/package/com.ioscreatix.littlex/
+Icon: https://repo.packix.com/api/Packages/5a9598f992d82c1c7fa8fe59/icon/download?size=medium&hash=2
+SileoDepiction: https://repo.packix.com/api/sileo/package/com.ioscreatix.littlex/depiction
+Version: 1.0.1
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios13.5
+Filename: ./deb/5a9598f992d82c1c7fa8fe5a.deb
+Size: 27034
+MD5sum: 2621f815a2a92a9b91a9a02867a9eec7
+SHA1: 4bd3cacef1cf7b549d37bc224ae9f37fc7c7e2a2
+SHA256: 656c9973fa2251c224259b9495a4602ff363ce5aa386ac3b56570b8d83b04021
+SHA512: 04c6e4527c171c2009a371a11cf0457ff9d52cde14840ce4822b73d5118d5d09950a86e9b4104eef67127093c1ec39ce9bdf2c7969b3b0eef5ca3388a1767917
+Homepage: https://twitter.com/zunda_pixel
+Author: zunda
+Architecture: iphoneos-arm
+Maintainer: zunda

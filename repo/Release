@@ -1,0 +1,10 @@
+  
+Origin: zunda
+Label: zunda
+Suite: stable
+Version: 1.1
+Codename: zunda
+Architectures: iphoneos-arm
+Components: main
+Description: zunda's repo
+ 
