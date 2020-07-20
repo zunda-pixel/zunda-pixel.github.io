@@ -8,7 +8,7 @@ Depiction: https://zunda-hack.com/
 Icon: https://zunda-hack.com/
 SileoDepiction: https://zunda-hack.com/.json
 Tag: compatible_min::ios11.0, compatible_max::ios13.5
-Filename: ./deb/com.zunda.changekeysound_1.0.1_iphoneos-arm.deb
+Filename: ./debs/com.zunda.changekeysound_1.0.1_iphoneos-arm.deb
 Size: 266362
 MD5sum: 082bcc8a24c552eef8c10ba43435a699
 SHA1: 0a83d27d300eda318b0bdd77a4aaa925e5790acc
