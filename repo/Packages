@@ -1,6 +1,6 @@
 Package: com.zunda.changekeysound
 Architecture: iphoneos-arm
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: zunda
 Depends: mobilesubstrate
