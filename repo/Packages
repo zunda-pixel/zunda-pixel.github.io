@@ -1,19 +1,19 @@
 Name: ChangeKeySound
-Package: com.zunda.Sound
+Version: 1.0.1
+Package: com.zunda.changekeysound
 Description: Change Keyboard Sound!
 Depends: mobilesubstrate
 Section: Tweaks
-Depiction: https://repo.packix.com/package/com.ioscreatix.littlex/
-Icon: https://repo.packix.com/api/Packages/5a9598f992d82c1c7fa8fe59/icon/download?size=medium&hash=2
-SileoDepiction: https://repo.packix.com/api/sileo/package/com.ioscreatix.littlex/depiction
-Version: 1.0.1
-Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios13.5
-Filename: ./deb/5a9598f992d82c1c7fa8fe5a.deb
-Size: 27034
-MD5sum: 2621f815a2a92a9b91a9a02867a9eec7
-SHA1: 4bd3cacef1cf7b549d37bc224ae9f37fc7c7e2a2
-SHA256: 656c9973fa2251c224259b9495a4602ff363ce5aa386ac3b56570b8d83b04021
-SHA512: 04c6e4527c171c2009a371a11cf0457ff9d52cde14840ce4822b73d5118d5d09950a86e9b4104eef67127093c1ec39ce9bdf2c7969b3b0eef5ca3388a1767917
+Depiction: https://zunda-hack.com/
+Icon: https://zunda-hack.com/
+SileoDepiction: https://zunda-hack.com/.json
+Tag: compatible_min::ios11.0, compatible_max::ios13.5
+Filename: ./deb/com.zunda.changekeysound_1.0.1_iphoneos-arm.deb
+Size: 266362
+MD5sum: 082bcc8a24c552eef8c10ba43435a699
+SHA1: 0a83d27d300eda318b0bdd77a4aaa925e5790acc
+SHA256: 63d1ca492e95aa278b13b26497d5457d329b490aee68f9fdfaaaf123cfba65ed
+SHA512: dcfb6b5549b787b755979805c76b115f1989ead6bab9ef9eff31699a9fcde287d891a3888c831347d0b0af7b2605f6b85abad4426e10363d0794a0f572526e0f
 Homepage: https://twitter.com/zunda_pixel
 Author: zunda
 Architecture: iphoneos-arm

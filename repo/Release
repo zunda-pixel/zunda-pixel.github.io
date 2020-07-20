@@ -1,8 +1,7 @@
-  
 Origin: zunda
 Label: zunda
 Suite: stable
-Version: 1.1
+Version: 1.0
 Codename: zunda
 Architectures: iphoneos-arm
 Components: main
