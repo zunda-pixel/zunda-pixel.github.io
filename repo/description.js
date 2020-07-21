@@ -16,9 +16,6 @@ window.onload = function () {
     document.getElementById("screenshot_scroll").appendChild(img);
   }
 
-  var title = document.getElementById("title");
-  title.innerHTML = jsonData["name"];
-
   var tweak_name = document.getElementById("tweak_name");
   tweak_name.innerHTML = jsonData["name"];
 
@@ -50,7 +47,7 @@ window.onload = function () {
   for (const tmp_changelog of Object.values(changelog_array[versions[0]])) {
     latest_changelog += "<li>" + tmp_changelog + "</li>";
   }
-  latest_changelog += "</ul></div>";
+  latest_changelog += "</ul></div></div>";
 
   delete changelog_array[versions[0]];
   versions.shift();
@@ -66,8 +63,6 @@ window.onload = function () {
     }
     old_changelog += "</ul>";
   }
-  old_changelog += "</div>";
-
   changelog.insertAdjacentHTML("beforeend", old_changelog);
 };
 
