@@ -14,6 +14,7 @@ a {
 
 h2 {
     color: #FFA500;
+    font-size: 5em;
 }
 
 .links ul {
@@ -163,19 +164,17 @@ ul li img {
     -webkit-overflow-scrolling: touch;
     width: 100%;
     height: 600px;
-    margin: auto;
 }
 
 .screenshot img {
     border-radius: 20px;
-    padding: 6px;
+    padding: 1%;
     border: none;
     height: 96%;
 }
 
 .screenshot::-webkit-scrollbar {
     height: 13px;
-    padding: 4px;
 }
 
 .screenshot::-webkit-scrollbar-track {
@@ -188,7 +187,7 @@ ul li img {
 .screenshot::-webkit-scrollbar-thumb {
     background: #666666;
     border-radius: 10px;
-    box-shadow: inset 0 0 0 2.5px rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.8);
 }
 
 .full-changelog {
