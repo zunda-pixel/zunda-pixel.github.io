@@ -1,7 +1,3 @@
-html {
-    font-size: 150px;
-}
-
 body {
     max-width: 100%;
     margin-left: auto;
@@ -11,11 +7,7 @@ body {
     font-family: sans-serif;
 }
 
-@media screen and (min-width: 1024px) {
-    html {
-        font-size: 10px;
-    }
-
+update@media screen and (min-width: 1024px) {
     body {
         width: 700px;
     }
@@ -29,6 +21,7 @@ a {
 
 h2 {
     color: #FFA500;
+    font-size: 200%;
 }
 
 .links ul {
