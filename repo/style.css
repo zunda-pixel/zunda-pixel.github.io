@@ -1,22 +1,26 @@
 html {
     -webkit-text-size-adjust: 100%;
     width: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #161616;
+    color: white;
 }
 
 body {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #161616;
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
+
 }
 
 @media screen and (min-width: 1024px) {
+    html {
+        font-size: 1.0em;
+    }
+
     body {
         width: 700px;
-        font-size: 1.0em;
     }
 
     .thumbnail {
