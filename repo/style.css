@@ -9,7 +9,8 @@ body {
     margin-right: auto;
     background-color: #161616;
     color: white;
-    font-size: 600px;
+    font-size: 30px;
+    font-family: "sans-serif";
 }
 
 @media screen and (min-width: 1024px) {
