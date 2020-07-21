@@ -1,6 +1,6 @@
 html {
     -webkit-text-size-adjust: 100%;
-    font-size: 5.0em;
+    font-size: 200%;
     width: 100%;
 }
 
@@ -13,6 +13,10 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+    html {
+        font-size: 1.0em;
+    }
+
     body {
         width: 700px;
     }
@@ -223,8 +227,8 @@ ul li img {
 .full-changelog label {
     position: absolute;
     display: inline-block;
-    bottom: 4px;
-    right: 3px;
+    bottom: 20px;
+    right: 20px;
     padding: 5px 8px;
     border: 1px solid white;
     border-radius: 6px;
