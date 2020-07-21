@@ -10,9 +10,14 @@ body {
 
 @media screen and (min-width: 1024px) {
     body {
-        width: 600px;
+        width: 700px;
         font-size: 30px;
     }
+
+    .thumbnail img {
+        //height: 100px;
+    }
+
 }
 
 a {
