@@ -128,7 +128,7 @@ ul li img {
     flex-direction: unset;
     flex-wrap: wrap;
     -webkit-box-align: baseline;
-    align-items: baseline
+    align-items: baseline;
 }
 
 .information tbody tr {
@@ -149,22 +149,22 @@ ul li img {
     -webkit-box-align: start;
     align-items: flex-start;
     flex-shrink: 2;
-    flex-basis: fill
+    flex-basis: fill;
 }
 
 .information tbody tr:nth-child(2n) {
-    padding-right: 0
+    padding-right: 0;
 }
 
 .information tbody tr:nth-child(odd) {
-    padding-left: 0
+    padding-left: 0;
 }
 
 .information tbody tr td:first-child {
     color: #777;
     font-weight: 600;
     text-transform: uppercase;
-    margin: 0
+    margin: 0;
 }
 
 .information tbody tr td:nth-child(2) {
@@ -173,7 +173,8 @@ ul li img {
     font-weight: 600;
     padding-top: 0;
     padding-bottom: 0;
-    margin: .10425rem 0 .625rem
+    margin: .10425rem 0 .625rem;
+    font-size: 1.5em;
 }
 
 .screenshot {
