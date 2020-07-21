@@ -87,7 +87,7 @@ ul li img {
 }
 
 .description {
-    font-size: 0.3em;
+    font-size: 0.1em;
 }
 
 #icon {
@@ -114,7 +114,7 @@ ul li img {
 
 .information {
     width: 100%;
-    font-size: 0.7em;
+    font-size: 0.3em;
 }
 
 .information tbody {
@@ -208,7 +208,7 @@ ul li img {
 }
 
 .changelog {
-    font-size: 0.4em;
+    font-size: 0.1em;
 }
 
 .full-changelog {
