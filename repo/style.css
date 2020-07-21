@@ -209,6 +209,7 @@ ul li img {
 }
 
 .full-changelog label {
+    width:250px;
     position: absolute;
     display: inline-block;
     bottom: 4px;
