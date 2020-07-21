@@ -232,7 +232,7 @@ ul li img {
     border: 1px solid white;
     border-radius: 6px;
     font-weight: bold;
-    //font-size: 0.4em;
+    font-size: 50px;
 }
 
 .full-changelog input[type="checkbox"]:not(:checked)~div {
