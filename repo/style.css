@@ -64,7 +64,7 @@ h2 {
 
 .icon {
     grid-area: areaA;
-    width: 90%;
+    width: 100%;
     border: none;
     border-radius: 20%;
 }
@@ -72,16 +72,20 @@ h2 {
 .tweak_name {
     grid-area: areaB;
     color: white;
+    padding-left: 10px;
 }
 
 .bundle_id {
     grid-area: areaC;
     color: #999999;
+    padding-left: 10px;
+
 }
 
 .developer {
     grid-area: areaD;
     color: #999999;
+    padding-left: 10px;
 }
 
 .banner {
