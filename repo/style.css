@@ -48,8 +48,7 @@ h2 {
     height: 100%;
     object-fit: cover;
     object-position: 0% 0%;
-    border: none;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 .container {
