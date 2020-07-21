@@ -25,6 +25,10 @@ body {
     html {
         font-size: 100px;
     }
+
+    h2 {
+        font-size: 100px;
+    }
 }
 
 a {
