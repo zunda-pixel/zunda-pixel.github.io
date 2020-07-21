@@ -84,6 +84,10 @@ ul li img {
         "areaA areaC";
 }
 
+p .description {
+    font-size: 0.8em;
+}
+
 #icon {
     grid-area: areaA;
     width: 90%;
