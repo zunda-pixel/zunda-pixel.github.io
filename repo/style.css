@@ -6,7 +6,7 @@ body {
     color: white;
 }
 
-@media only screen and (max-device-width : 480px) {
+@media only screen and (max-device-width : 980px) {
 
     /* スマートフォンだけ以下を適用 */
     body {
@@ -102,8 +102,10 @@ ul li img {
     border: none;
     border-radius: 10px;
 }
-
-.information>tbody {
+.information{
+    width: 100%;
+}
+.information tbody {
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: end;
@@ -116,7 +118,7 @@ ul li img {
     align-items: baseline
 }
 
-.information>tbody>tr {
+.information tbody tr {
     width: 45%;
     max-width: 50%;
     display: inline-block;
