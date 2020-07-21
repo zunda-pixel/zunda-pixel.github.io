@@ -67,25 +67,26 @@ h2 {
     width: 100%;
     border: none;
     border-radius: 20%;
+    margin-top: 20px;
 }
 
 .tweak_name {
     grid-area: areaB;
     color: white;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .bundle_id {
     grid-area: areaC;
     color: #999999;
-    padding-left: 10px;
+    padding-left: 20px;
 
 }
 
 .developer {
     grid-area: areaD;
     color: #999999;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .banner {
