@@ -39,7 +39,7 @@ h2 {
 
 .links li {
     padding: 10px 0px;
-    //font-size: 0.5em;
+    font-size: 50px;
 }
 
 .links i {
@@ -87,7 +87,7 @@ ul li img {
 }
 
 .description {
-    font-size: 10px;
+    font-size: 50px;
 }
 
 #icon {
@@ -114,7 +114,7 @@ ul li img {
 
 .information {
     width: 100%;
-    //font-size: 0.3em;
+    font-size: 50px;
 }
 
 .information tbody {
@@ -208,7 +208,7 @@ ul li img {
 }
 
 .changelog {
-    //font-size: 0.1em;
+    font-size: 50px;
 }
 
 .full-changelog {
