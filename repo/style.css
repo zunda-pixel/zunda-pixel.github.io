@@ -1,19 +1,9 @@
 body {
-    width: 500px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #161616;
     color: white;
-}
-
-@media only screen and (max-device-width : 480px) {
-    body {
-        width: 100%;
-    }
-
-    .thumbnail img {
-        height: 400px;
-    }
 }
 
 a {
