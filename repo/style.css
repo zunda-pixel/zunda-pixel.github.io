@@ -4,7 +4,8 @@ body {
     margin-right: auto;
     background-color: #161616;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
+    font-family: sans-serif;
 }
 
 @media screen and (min-width: 1024px) {
@@ -22,7 +23,7 @@ a {
 
 h2 {
     color: #FFA500;
-    font-size: em;
+    font-size: 1em;
 }
 
 .links ul {
