@@ -19,6 +19,9 @@ window.onload = function () {
   var tweak_name = document.getElementById("tweak_name");
   tweak_name.innerHTML = jsonData["name"];
 
+  var developer = document.getElementById("bundle_id");
+  developer.innerHTML = id[1];
+
   var developer = document.getElementById("developer");
   developer.innerHTML = jsonData["developer"];
 
