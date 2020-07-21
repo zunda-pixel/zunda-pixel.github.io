@@ -77,13 +77,11 @@ h2 {
 .bundle_id {
     grid-area: areaC;
     color: #999999;
-    margin-top: -20px;
 }
 
 .developer {
     grid-area: areaD;
     color: #999999;
-    margin-top: -20px;
 }
 
 .banner {
