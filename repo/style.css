@@ -9,11 +9,13 @@ body {
     margin-right: auto;
     background-color: #161616;
     color: white;
+    font-size: 35px;
 }
 
 @media screen and (min-width: 1024px) {
     body {
         width: 700px;
+        font-size: 1.0em;
     }
 
     .thumbnail {
@@ -23,10 +25,6 @@ body {
 
 @media screen and (max-width: 480px) {
     html {
-        font-size: 100px;
-    }
-
-    h2 {
         font-size: 100px;
     }
 }
