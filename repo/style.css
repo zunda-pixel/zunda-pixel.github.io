@@ -181,14 +181,13 @@ ul li img {
     -webkit-overflow-scrolling: touch;
     width: 100%;
     height: 600px;
-    margin: 0;
 }
 
 .screenshot img {
     border-radius: 20px;
     padding: 1%;
     border: none;
-    height: 96%;
+    height: 90%;
 }
 
 .screenshot::-webkit-scrollbar {
