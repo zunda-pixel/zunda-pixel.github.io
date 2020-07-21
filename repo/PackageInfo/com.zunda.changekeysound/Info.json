@@ -5,6 +5,7 @@
     "compatible": "11, 12 and 13",
     "price": "Free",
     "developer": "zunda",
+    "screenshot": "3",
     "changelog": {
         "1.0.2": {
             "0": "Support all Album's.",

@@ -1,20 +1,21 @@
 window.onload = function () {
-  var banner_image = document.getElementById("banner");
-  banner_image.setAttribute(
-    "src",
-    "https://repo.anthopak.dev/assets/com.anthopak.pancake/banner.png"
-  );
-  var icon_image = document.getElementById("icon");
-  icon_image.setAttribute(
-    "src",
-    "https://repo.anthopak.dev/assets/com.anthopak.pancake/icon.png"
-  );
-  var image = '<imgsrc="https://repo.anthopak.dev/assets/com.anthopak.pancake/screenshot/panCake1.png"/><imgsrc="https://repo.anthopak.dev/assets/com.anthopak.pancake/screenshot/panCake2.png"/><imgsrc="https://repo.anthopak.dev/assets/com.anthopak.pancake/screenshot/panCake3.png"/><imgsrc="https://repo.packix.com/api/Packages/5b12be85424f7f000fdbdd95/screenshots/5cc7af8c774b0b0018f359ec/download?size=full"/><imgsrc="https://repo.packix.com/api/Packages/5b12be85424f7f000fdbdd95/screenshots/5cc7af8c774b0b0018f359ec/download?size=full"/>';
-
   var id = window.location.href.split("description.html?id=");
 
-  var filePath = "./PackageInfo/" + id[1] + ".json";
+  var banner_image = document.getElementById("banner");
+  banner_image.setAttribute("src", "./PackageInfo/" + id[1] + "/banner.png");
+
+  var icon_image = document.getElementById("icon");
+  icon_image.setAttribute("src", "./PackageInfo/" + id[1] + "/icon.png");
+
+  var filePath = "./PackageInfo/" + id[1] + "/Info.json";
   var jsonData = loadJson(filePath);
+  console.log(Number(jsonData["screenshot"]));
+
+  for (var i = 1; i <= Number(jsonData["screenshot"]); i++) {
+    var img = document.createElement("img");
+    img.src = "./PackageInfo/" + id[1] + "/screenshot" + i + ".png";
+    document.getElementById("screenshot_scroll").appendChild(img);
+  }
 
   var title = document.getElementById("title");
   title.innerHTML = jsonData["name"];

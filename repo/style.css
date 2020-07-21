@@ -143,7 +143,7 @@ h2 {
     margin: .10425rem 0 .625rem;
 }
 
-.screenshot {
+.screenshot_scroll {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
@@ -151,7 +151,7 @@ h2 {
     height: 600px;
 }
 
-.screenshot img {
+.screenshot_scroll img {
     border-radius: 20px;
     padding: 1%;
     border: none;
