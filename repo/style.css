@@ -23,8 +23,6 @@ a {
 }
 
 h2 {
-    margin-bottom: 0px;
-    font-size: 20px;
     color: #FFA500;
 }
 
@@ -69,10 +67,8 @@ ul li img {
 
 #container {
     display: grid;
-    margin-top: 15px;
-    margin-bottom: -30px;
-    grid-template-rows: 80px 10px;
-    grid-template-columns: 90px 1fr;
+    grid-template-rows: 65% 35%;
+    grid-template-columns: 30% 70%;
     grid-template-areas:
         "areaA areaB"
         "areaA areaC";
@@ -80,11 +76,11 @@ ul li img {
 
 #icon {
     grid-area: areaA;
+    width: 50%
 }
 
 #tweak_name {
     grid-area: areaB;
-    font-size: 26px;
     margin-top: 0px;
     color: white;
 }
@@ -92,7 +88,6 @@ ul li img {
 #developer {
     grid-area: areaC;
     color: #999999;
-    margin-top: -40px;
 }
 
 .icon {
