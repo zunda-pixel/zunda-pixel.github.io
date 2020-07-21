@@ -81,7 +81,7 @@ function loadJson(filePath) {
     try {
       jsonFile = JSON.parse(this.responseText);
     } catch (e) {
-      //alert("URLが壊れています。");
+      alert("URL BROKEN \n\nError:" + e);
     }
   };
   obj.send(null);
