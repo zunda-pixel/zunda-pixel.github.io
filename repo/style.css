@@ -141,16 +141,15 @@ ul li img {
     flex-basis: fill
 }
 
-.information>tbody>tr:nth-child(2n) {
+.information tbody tr:nth-child(2n) {
     padding-right: 0
 }
 
-.information>tbody>tr:nth-child(odd) {
+.information tbody tr:nth-child(odd) {
     padding-left: 0
 }
 
-.information>tbody>tr>td:first-child {
-    font-size: 11px;
+.information tbody tr td:first-child {
     color: #777;
     font-weight: 600;
     text-transform: uppercase;
@@ -159,7 +158,6 @@ ul li img {
 
 .information tbody tr td:nth-child(2) {
     text-align: left;
-    font-size: 16px;
     color: white;
     font-weight: 600;
     padding-top: 0;
