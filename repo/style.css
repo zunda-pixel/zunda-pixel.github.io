@@ -160,14 +160,15 @@ ul li img {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     width: 100%;
-    margin: 0px
+    margin: 0px;
+    height: 600px;
 }
 
 .screenshot img {
     border-radius: 7px;
     padding: 2px;
     border: none;
-    height: 600px;
+    height: 100%;
 }
 
 .screenshot::-webkit-scrollbar {
