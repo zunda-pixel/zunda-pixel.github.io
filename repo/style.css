@@ -1,6 +1,5 @@
 html {
     -webkit-text-size-adjust: 100%;
-    font-size: 20px;
     width: 100%;
 }
 
@@ -13,16 +12,18 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-    html {
-        font-size: 1.0em;
-    }
-
     body {
         width: 700px;
     }
 
     .thumbnail {
         height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 100px;
     }
 }
 
@@ -71,7 +72,6 @@ ul li img {
 
 .thumbnail {
     text-align: center;
-    height: 200px;
 }
 
 .thumbnail img {
@@ -209,8 +209,6 @@ ul li img {
     border-radius: 10px;
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.8);
 }
-
-.changelog {}
 
 .full-changelog {
     position: relative;
