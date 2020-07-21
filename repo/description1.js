@@ -14,9 +14,6 @@ window.onload = function () {
   var developer = document.getElementById("developer");
   developer.innerHTML = jsonData["developer"];
 
-  var version = document.getElementById("version");
-  version.innerHTML = jsonData["version"];
-
   var price = document.getElementById("price");
   price.innerHTML = jsonData["price"];
 
@@ -29,7 +26,11 @@ window.onload = function () {
   var changelog = document.getElementById("changelog");
   var changelog_array = jsonData["changelog"];
 
+  var version = document.getElementById("version");
   var versions = Object.keys(changelog_array);
+
+  version.innerHTML = versions[0];
+
   var latest_changelog =
     '<div id="changelog" class="changelog"><h3>' +
     versions[0] +
