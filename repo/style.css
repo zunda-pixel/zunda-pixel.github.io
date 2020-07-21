@@ -41,8 +41,7 @@ h2 {
 .links ul {
     list-style: none;
     padding-inline-start: 0;
-    margin-left: 10%;
-    margin-top: -5%;
+    margin-top: 0px;
 }
 
 .links li {
@@ -92,8 +91,6 @@ ul li img {
         "areaA areaB"
         "areaA areaC";
 }
-
-.description {}
 
 #icon {
     grid-area: areaA;
