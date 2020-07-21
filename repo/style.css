@@ -71,7 +71,6 @@ ul li img {
 
 #tweak_name {
     grid-area: areaB;
-    margin-top: 0px;
     color: white;
 }
 
@@ -161,6 +160,7 @@ ul li img {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     width: 100%;
+    margin: 0px
 }
 
 .screenshot img {
