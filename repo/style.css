@@ -39,7 +39,7 @@ h2 {
 
 .links li {
     padding: 10px 0px;
-    font-size: 0.5em;
+    //font-size: 0.5em;
 }
 
 .links i {
@@ -87,7 +87,7 @@ ul li img {
 }
 
 .description {
-    font-size: 0.1em;
+    //font-size: 0.1em;
 }
 
 #icon {
@@ -114,7 +114,7 @@ ul li img {
 
 .information {
     width: 100%;
-    font-size: 0.3em;
+    //font-size: 0.3em;
 }
 
 .information tbody {
@@ -208,7 +208,7 @@ ul li img {
 }
 
 .changelog {
-    font-size: 0.1em;
+    //font-size: 0.1em;
 }
 
 .full-changelog {
@@ -232,7 +232,7 @@ ul li img {
     border: 1px solid white;
     border-radius: 6px;
     font-weight: bold;
-    font-size: 0.4em;
+    //font-size: 0.4em;
 }
 
 .full-changelog input[type="checkbox"]:not(:checked)~div {
