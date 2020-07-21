@@ -1,4 +1,16 @@
 window.onload = function () {
+  var banner_image = document.getElementById("banner");
+  banner_image.setAttribute(
+    "src",
+    "https://repo.anthopak.dev/assets/com.anthopak.pancake/banner.png"
+  );
+  var icon_image = document.getElementById("icon");
+  icon_image.setAttribute(
+    "src",
+    "https://repo.anthopak.dev/assets/com.anthopak.pancake/icon.png"
+  );
+  var image = '<imgsrc="https://repo.anthopak.dev/assets/com.anthopak.pancake/screenshot/panCake1.png"/><imgsrc="https://repo.anthopak.dev/assets/com.anthopak.pancake/screenshot/panCake2.png"/><imgsrc="https://repo.anthopak.dev/assets/com.anthopak.pancake/screenshot/panCake3.png"/><imgsrc="https://repo.packix.com/api/Packages/5b12be85424f7f000fdbdd95/screenshots/5cc7af8c774b0b0018f359ec/download?size=full"/><imgsrc="https://repo.packix.com/api/Packages/5b12be85424f7f000fdbdd95/screenshots/5cc7af8c774b0b0018f359ec/download?size=full"/>';
+
   var id = window.location.href.split("description.html?id=");
 
   var filePath = "./PackageInfo/" + id[1] + ".json";
@@ -65,7 +77,7 @@ function loadJson(filePath) {
     try {
       jsonFile = JSON.parse(this.responseText);
     } catch (e) {
-      alert("コマンド定義ファイルの読み込み、解析に失敗しました。");
+      //alert("URLが壊れています。");
     }
   };
   obj.send(null);
