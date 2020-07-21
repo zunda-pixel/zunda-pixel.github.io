@@ -25,6 +25,9 @@ window.onload = function () {
   var developer = document.getElementById("developer");
   developer.innerHTML = jsonData["developer"];
 
+  var description_short = document.getElementById("description_short");
+  description_short.innerHTML = jsonData["desc_short"];
+
   var price = document.getElementById("price");
   price.innerHTML = jsonData["price"];
 
