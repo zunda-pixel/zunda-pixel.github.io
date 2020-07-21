@@ -9,6 +9,7 @@ html {
 
 body {
     max-width: 90%;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -78,7 +79,6 @@ h2 {
 
 .banner {
     border: none;
-    margin-top: 10px;
     border-radius: 10px;
 }
 
