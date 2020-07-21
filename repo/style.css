@@ -84,7 +84,7 @@ ul li img {
         "areaA areaC";
 }
 
-p .description {
+.description {
     font-size: 0.8em;
 }
 
@@ -182,6 +182,7 @@ p .description {
     -webkit-overflow-scrolling: touch;
     width: 100%;
     height: 600px;
+    margin: 0;
 }
 
 .screenshot img {
@@ -221,7 +222,6 @@ p .description {
 }
 
 .full-changelog label {
-    width: 250px;
     position: absolute;
     display: inline-block;
     bottom: 4px;
@@ -230,10 +230,8 @@ p .description {
     border: 1px solid white;
     border-radius: 6px;
     font-weight: bold;
-}
+    font-size: 0.5em;
 
-.full-changelog label:hover {
-    background: #999999;
 }
 
 .full-changelog input[type="checkbox"]:not(:checked)~div {
