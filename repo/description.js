@@ -9,7 +9,6 @@ window.onload = function () {
 
   var filePath = "./PackageInfo/" + id[1] + "/Info.json";
   var jsonData = loadJson(filePath);
-  console.log(Number(jsonData["screenshot"]));
 
   for (var i = 1; i <= Number(jsonData["screenshot"]); i++) {
     var img = document.createElement("img");
@@ -46,15 +45,18 @@ window.onload = function () {
   var latest_changelog =
     '<div id="changelog" class="changelog"><h3>' +
     versions[0] +
-    "<div class='latest-changelog'><ul>";
+    "</h3><div class='latest-changelog'><ul>";
+
   for (const tmp_changelog of Object.values(changelog_array[versions[0]])) {
     latest_changelog += "<li>" + tmp_changelog + "</li>";
   }
-  latest_changelog += "</ul></div></div>";
+  latest_changelog += "</ul></div>";
+
   delete changelog_array[versions[0]];
   versions.shift();
 
   changelog.insertAdjacentHTML("beforeend", latest_changelog);
+
   var old_changelog =
     '<div class="old-changelog"><input type="checkbox" id="sp01" value="none" /><label for="sp01"></label><div>';
   for (const version of versions) {
