@@ -2,7 +2,6 @@ window.onload = function () {
   var id = window.location.href.split("description.html?id=");
 
   var filePath = "./PackageInfo/" + id[1] + ".json";
-  console.log(filePath);
   var jsonData = loadJson(filePath);
 
   var title = document.getElementById("title");
