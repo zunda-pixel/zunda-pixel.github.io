@@ -1,0 +1,13 @@
+{
+    "name": "ChangeKeySound",
+    "desc_short": "Hide Album's On Photo App",
+    "desc_long": "On Album Section Tap Edit and Tap on Bookmark Icon and Hide/Show Any Album's.<br><br>No Options To Configure.",
+    "compatitle": "11, 12 and 13",
+    "price": "Free",
+    "developer": "zunda",
+    "changelog": {
+        "v0.0~beta3": "Support all Album's.",
+        "0.0~beta2": "Support iOS 12, 13.",
+        "0.0~beta1": "Initial Release."
+    }
+}

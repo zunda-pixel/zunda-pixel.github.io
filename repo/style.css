@@ -30,43 +30,11 @@ body {
 a {
     color: white;
     text-decoration: none;
-    color: #FFA500;
+    color: #7fffd4;
 }
 
 h2 {
-    color: #FFA500;
-}
-
-.links ul {
-    list-style: none;
-    padding-inline-start: 0;
-    margin-top: 0px;
-}
-
-.links li {
-    padding: 10px 0px;
-}
-
-.links i {
-    width: 65px;
-    padding-right: 40px;
-}
-
-.links .header {
-    margin-top: 65px;
-}
-
-ul li.link-cell {
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px;
-}
-
-ul li img {
-    background-color: white;
-    border-radius: 50%;
-    padding: 2px;
-    border: 2px solid black;
+    color: #7fffd4;
 }
 
 .thumbnail {
@@ -81,7 +49,7 @@ ul li img {
     object-position: 0% 0%;
 }
 
-#container {
+.container {
     padding: 40px;
     display: grid;
     grid-template-rows: 65% 35%;
@@ -91,19 +59,19 @@ ul li img {
         "areaA areaC";
 }
 
-#icon {
+.icon {
     grid-area: areaA;
     width: 90%;
     border: none;
     border-radius: 20%;
 }
 
-#tweak_name {
+.tweak_name {
     grid-area: areaB;
     color: white;
 }
 
-#developer {
+.developer {
     grid-area: areaC;
     color: #999999;
 }
@@ -219,12 +187,9 @@ ul li img {
 
 .full-changelog label {
     position: absolute;
-    display: inline-block;
     bottom: 20px;
     right: 20px;
-    padding: 5px 8px;
-    border: 1px solid white;
-    border-radius: 6px;
+    color: orange;
     font-weight: bold;
 }
 
@@ -237,9 +202,28 @@ ul li img {
 }
 
 .full-changelog input[type="checkbox"]:not(:checked)+label::after {
-    content: "Full Changelog";
+    content: "Version History";
 }
 
 .full-changelog input[type="checkbox"]:checked+label::after {
     content: "Close";
+}
+
+.links ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-top: 0px;
+}
+
+.links li {
+    padding: 10px 0px;
+}
+
+.links i {
+    width: 45px;
+    padding-right: 0px;
+}
+
+.links .header {
+    margin-top: 65px;
 }
