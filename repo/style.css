@@ -173,19 +173,19 @@ h2 {
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.8);
 }
 
-.full-changelog {
+.old-changelog {
     position: relative;
 }
 
-.full-changelog div {
+.old-changelog div {
     overflow: hidden;
 }
 
-.full-changelog input {
+.old-changelog input {
     display: none;
 }
 
-.full-changelog label {
+.old-changelog label {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -193,19 +193,19 @@ h2 {
     font-weight: bold;
 }
 
-.full-changelog input[type="checkbox"]:not(:checked)~div {
+.old-changelog input[type="checkbox"]:not(:checked)~div {
     height: 10px;
 }
 
-.full-changelog input[type="checkbox"]:checked~div {
+.old-changelog input[type="checkbox"]:checked~div {
     padding-bottom: 30px;
 }
 
-.full-changelog input[type="checkbox"]:not(:checked)+label::after {
+.old-changelog input[type="checkbox"]:not(:checked)+label::after {
     content: "Version History";
 }
 
-.full-changelog input[type="checkbox"]:checked+label::after {
+.old-changelog input[type="checkbox"]:checked+label::after {
     content: "Close";
 }
 
