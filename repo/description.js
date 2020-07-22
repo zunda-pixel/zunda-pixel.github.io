@@ -93,5 +93,12 @@ function openInPackageManager() {
   let url =
     "cydia://url/https://cydia.saurik.com/api/share#?source=https://zunda-pixel.github.io/repo/&package=";
   url += id[1];
-  window.open(url, "_blank");
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  if (userAgent.indexOf("iphone") != -1) {
+    window.open(url, "_blank");
+  } else if (userAgent.indexOf("ipad") != -1) {
+    window.open(url, "_blank");
+  } else {
+    alert("Only Available iPhone and iPad");
+  }
 }
