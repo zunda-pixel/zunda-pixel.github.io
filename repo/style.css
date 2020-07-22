@@ -91,7 +91,8 @@ h2 {
 
 .get_button {
     grid-area: areaM;
-    text-align: left;
+    text-align: center;
+    padding: 0;
     width: 80%;
     background-color: orange;
     border-radius: 10px;
