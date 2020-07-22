@@ -1,0 +1,47 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #161616;
+    color: white;
+}
+
+body {
+    max-width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recent_update {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    width: 70%;
+}
+
+.recent_update table {
+    width: 100%;
+}
+
+.recent_package {
+    position: relative;
+    padding-left: 20px;
+    width: 500px;
+
+}
+
+.recent_package img {
+    width: 100%;
+}
+
+.information {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    font-weight: bold;
+}
+
+.all_packages ul {
+    list-style-type: none;
+}

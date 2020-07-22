@@ -55,11 +55,11 @@ h2 {
     padding: 40px;
     display: grid;
     grid-template-rows: 50% 25% 25%;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 50% 20%;
     grid-template-areas:
-        "areaA areaB"
-        "areaA areaC"
-        "areaA areaD";
+        "areaA areaB areaK"
+        "areaA areaC areaK"
+        "areaA areaD areaM";
 }
 
 .icon {
@@ -87,6 +87,16 @@ h2 {
     grid-area: areaD;
     color: #999999;
     padding-left: 20px;
+}
+
+.get_button {
+    grid-area: areaM;
+    margin-left: 50px;
+    background-color: orange;
+    border-radius: 10px;
+    height: 50%;
+    border: none;
+    font-weight: bold;
 }
 
 .banner {

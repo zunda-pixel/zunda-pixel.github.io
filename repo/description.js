@@ -1,51 +1,53 @@
-window.onload = function () {
-  var id = window.location.href.split("description.html?id=");
+let id;
+let tweak_data;
 
-  var banner_image = document.getElementById("banner");
+window.onload = function () {
+  id = window.location.href.split("description.html?id=");
+
+  const banner_image = document.getElementById("banner");
   banner_image.setAttribute("src", "./PackageInfo/" + id[1] + "/banner.png");
 
-  var icon_image = document.getElementById("icon");
+  const icon_image = document.getElementById("icon");
   icon_image.setAttribute("src", "./PackageInfo/" + id[1] + "/icon.png");
 
-  var filePath = "./PackageInfo/" + id[1] + "/Info.json";
-  var jsonData = loadJson(filePath);
-
-  for (var i = 1; i <= Number(jsonData["screenshot"]); i++) {
-    var img = document.createElement("img");
+  const filePath = "./PackageInfo/" + id[1] + "/Info.json";
+  loadJson(filePath);
+  for (let i = 1; i <= Number(tweak_data["screenshot"]); i++) {
+    const img = document.createElement("img");
     img.src = "./PackageInfo/" + id[1] + "/screenshot" + i + ".png";
     document.getElementById("screenshot_scroll").appendChild(img);
   }
 
-  var tweak_name = document.getElementById("tweak_name");
-  tweak_name.innerHTML = jsonData["name"];
+  const tweak_name = document.getElementById("tweak_name");
+  tweak_name.innerHTML = tweak_data["name"];
 
-  var developer = document.getElementById("bundle_id");
-  developer.innerHTML = id[1];
+  const bundle_id = document.getElementById("bundle_id");
+  bundle_id.innerHTML = id[1];
 
-  var developer = document.getElementById("developer");
-  developer.innerHTML = jsonData["developer"];
+  const developer = document.getElementById("developer");
+  developer.innerHTML = tweak_data["developer"];
 
-  var description_short = document.getElementById("description_short");
-  description_short.innerHTML = jsonData["desc_short"];
+  const description_short = document.getElementById("description_short");
+  description_short.innerHTML = tweak_data["desc_short"];
 
-  var price = document.getElementById("price");
-  price.innerHTML = jsonData["price"];
+  const price = document.getElementById("price");
+  price.innerHTML = tweak_data["price"];
 
-  var compatible = document.getElementById("compatible");
-  compatible.innerHTML = jsonData["compatible"];
+  const compatible = document.getElementById("compatible");
+  compatible.innerHTML = tweak_data["compatible"];
 
-  var description_long = document.getElementById("description_long");
-  description_long.innerHTML = jsonData["desc_long"];
+  const description_long = document.getElementById("description_long");
+  description_long.innerHTML = tweak_data["desc_long"];
 
-  var changelog = document.getElementById("changelog");
-  var changelog_array = jsonData["changelog"];
+  const changelog = document.getElementById("changelog");
+  const changelog_array = tweak_data["changelog"];
 
-  var version = document.getElementById("version");
-  var versions = Object.keys(changelog_array);
+  const version = document.getElementById("version");
+  const versions = Object.keys(changelog_array);
 
   version.innerHTML = versions[0];
 
-  var latest_changelog =
+  let latest_changelog =
     '<div id="changelog" class="changelog"><h3>' +
     versions[0] +
     "</h3><div class='latest-changelog'><ul>";
@@ -60,7 +62,7 @@ window.onload = function () {
 
   changelog.insertAdjacentHTML("beforeend", latest_changelog);
 
-  var old_changelog =
+  let old_changelog =
     '<div class="old-changelog"><input type="checkbox" id="sp01" value="none" /><label for="sp01"></label><div>';
   for (const version of versions) {
     old_changelog += "<h3>" + version + "</h3><ul>";
@@ -73,8 +75,8 @@ window.onload = function () {
 };
 
 function loadJson(filePath) {
-  var jsonFile;
-  var obj = new XMLHttpRequest();
+  let jsonFile;
+  const obj = new XMLHttpRequest();
 
   obj.open("get", filePath, false);
   obj.onload = function () {
@@ -85,5 +87,11 @@ function loadJson(filePath) {
     }
   };
   obj.send(null);
-  return jsonFile;
+  tweak_data = jsonFile;
+}
+function openInPackageManager() {
+  let url =
+    "cydia://url/https://cydia.saurik.com/api/share#?source=https://zunda-pixel.github.io/repo/&package=";
+  url += id[1];
+  window.open(url, "_blank");
 }
