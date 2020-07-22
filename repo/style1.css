@@ -13,6 +13,16 @@ body {
     margin-right: auto;
 }
 
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 1.0em;
+    }
+
+    body {
+        width: 700px;
+    }
+}
+
 .recent_update {
     overflow-x: auto;
     white-space: nowrap;
@@ -37,11 +47,48 @@ body {
 
 .information {
     position: absolute;
-    color: white;
-    bottom: 10px;
+    left: 10%;
+    bottom: 10%;
     font-weight: bold;
 }
 
 .all_packages ul {
     list-style-type: none;
+    width: 50%;
+}
+
+
+.tweak_cell {
+    width: 500px;
+    display: grid;
+    grid-template-rows: 50% 25% 25%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        " icon icon"
+        " name name"
+        " developer price";
+}
+
+.icon {
+    grid-area: icon;
+    margin-top: 25px;
+    width: 50%;
+    width: 50%;
+    object-fit: cover;
+    object-position: 0% 0%;
+    border-radius: 40px;
+
+}
+
+.name {
+    grid-area: name;
+
+}
+
+.price {
+    grid-area: price;
+}
+
+.developer {
+    grid-area: developer;
 }
