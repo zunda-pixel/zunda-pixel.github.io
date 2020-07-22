@@ -97,8 +97,9 @@ h2 {
     background-color: orange;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
     height: 85%;
-    font-size: 1.0em;
+    font-size: 0.75em;
 }
 
 .banner {
