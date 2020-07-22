@@ -95,9 +95,9 @@ function openInPackageManager() {
   url += id[1];
   const userAgent = window.navigator.userAgent.toLowerCase();
   if (userAgent.indexOf("iphone") != -1) {
-    window.open(url, "_blank");
+    window.location.href = url;
   } else if (userAgent.indexOf("ipad") != -1) {
-    window.open(url, "_blank");
+    window.location.href = url;
   } else {
     alert("Only Available iPhone and iPad");
   }
