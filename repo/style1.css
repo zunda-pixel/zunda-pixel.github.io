@@ -19,7 +19,7 @@ body {
     }
 
     body {
-        width: 700px;
+        width: 80%;
     }
 }
 
@@ -27,7 +27,7 @@ body {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-    width: 70%;
+    width: 100%;
 }
 
 .recent_update table {
@@ -52,16 +52,17 @@ body {
     font-weight: bold;
 }
 
-.all_packages ul {
+.all_packages {
     list-style-type: none;
-    width: 50%;
+    width: 100%;
 }
 
 
 .tweak_cell {
-    width: 500px;
+    float: left;
+    width: 30%;
     display: grid;
-    grid-template-rows: 50% 25% 25%;
+    grid-template-rows: 80% 10% 10%;
     grid-template-columns: 50% 50%;
     grid-template-areas:
         " icon icon"
@@ -72,23 +73,27 @@ body {
 .icon {
     grid-area: icon;
     margin-top: 25px;
-    width: 50%;
-    width: 50%;
+    width: 70%;
+    height: 150px;
     object-fit: cover;
     object-position: 0% 0%;
-    border-radius: 40px;
-
+    border-radius: 10px;
+    display: block;
+    background-color: red;
 }
 
 .name {
     grid-area: name;
-
+    font-weight: bold;
 }
 
 .price {
     grid-area: price;
+    font-weight: bold;
+
 }
 
 .developer {
     grid-area: developer;
+    font-weight: bold;
 }
