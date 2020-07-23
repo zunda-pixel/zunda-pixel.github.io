@@ -42,7 +42,8 @@ body {
 }
 
 .recent_package img {
-    width: 300px;
+    width: auto;
+    height: 100px;
     border: none;
     border-radius: 10%;
 }
