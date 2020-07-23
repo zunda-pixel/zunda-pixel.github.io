@@ -20,7 +20,13 @@ body {
         width: 80%;
     }
 }
-
+h2 {
+    color: orange;
+}
+a {
+    text-decoration: none;
+    color: orange;
+}
 .recent_update {
     overflow-x: auto;
     white-space: nowrap;
@@ -99,4 +105,22 @@ body {
 .developer {
     grid-area: developer;
     font-weight: bold;
+}
+.links ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-top: 0px;
+}
+
+.links li {
+    padding: 20px 0px;
+}
+
+.links i {
+    width: 20%;
+    padding-right: 0px;
+}
+
+.links .header {
+    margin-top: 65px;
 }
