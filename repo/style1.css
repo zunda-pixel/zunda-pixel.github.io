@@ -37,8 +37,7 @@ body {
 .recent_package {
     position: relative;
     padding-left: 20px;
-    width: 500px;
-
+    width: 90%;
 }
 
 .recent_package img {
