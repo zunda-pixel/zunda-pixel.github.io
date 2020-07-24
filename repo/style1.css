@@ -19,13 +19,17 @@ body {
     }
 }
 
-h2 {
-    color: orange;
-}
-
 a {
     text-decoration: none;
-    color: orange;
+    color: #fffafa;
+}
+
+.twitter {
+    color: #00ffff;
+}
+
+.coffee {
+    color: #ffdab9;
 }
 
 .recent_update {
@@ -91,10 +95,6 @@ a {
     object-fit: cover;
     object-position: 0% 0%;
     border-radius: 10px;
-    background-color: red;
-    border: 3px solid red;
-    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #E7F8FC), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, #E7F8FC), color-stop(.75, #E7F8FC), color-stop(.75, transparent), to(transparent));
-    -webkit-background-size: 20px 20px;
 }
 
 .name {
@@ -119,10 +119,12 @@ a {
 .links ul {
     list-style: none;
     padding-inline-start: 0;
+
 }
 
 .links li {
     padding: 10px 0px;
+    font-weight: bold;
 }
 
 .links i {
