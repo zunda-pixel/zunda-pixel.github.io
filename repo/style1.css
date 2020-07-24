@@ -86,7 +86,7 @@ a {
 .icon {
     grid-area: icon;
     margin-top: 25px;
-    width: 100%;
+    width: 96%;
     height: 150px;
     object-fit: cover;
     object-position: 0% 0%;
