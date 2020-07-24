@@ -76,7 +76,7 @@ a {
 .tweak_cell {
     display: grid;
     grid-template-rows: 80% 10% 10%;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 78% 1fr;
     grid-template-areas:
         " icon icon"
         " name name"
@@ -103,8 +103,11 @@ a {
 
 .price {
     grid-area: price;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
     font-weight: bold;
-    text-align: right;
+    background-color: orange;
 }
 
 .developer {
