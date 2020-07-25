@@ -50,6 +50,7 @@ h2 {
 }
 
 .container {
+    width: 100%;
     padding: 40px;
     display: grid;
     grid-template-rows: 50% 25% 25%;
