@@ -42,7 +42,7 @@ h2 {
 
 .thumbnail img {
     text-align: center;
-    max-width: 90%;
+    width: 90%;
     height: 200px;
     object-fit: cover;
     object-position: 0% 0%;
@@ -50,11 +50,9 @@ h2 {
 }
 
 .container {
-    width: 100%;
-    padding: 40px;
     display: grid;
     grid-template-rows: 50% 25% 25%;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 30% 40% 1fr;
     grid-template-areas:
         "areaA areaB areaK"
         "areaA areaC areaK"
@@ -63,7 +61,7 @@ h2 {
 
 .icon {
     grid-area: areaA;
-    width: 100%;
+    width: 90%;
     border: none;
     border-radius: 20%;
     margin-top: 25px;
@@ -72,28 +70,26 @@ h2 {
 .tweak_name {
     grid-area: areaB;
     color: white;
-    padding-left: 20px;
 }
 
 .bundle_id {
     grid-area: areaC;
     color: #999999;
-    padding-left: 20px;
-
 }
 
 .developer {
     grid-area: areaD;
     color: #999999;
-    padding-left: 20px;
 }
 
 .get_button {
     grid-area: areaM;
     background-color: orange;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     font-weight: bold;
+    margin-right: 80px;
+    width: 65%;
 }
 
 .information {
