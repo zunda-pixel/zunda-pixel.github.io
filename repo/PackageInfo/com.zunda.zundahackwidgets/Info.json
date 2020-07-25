@@ -1,0 +1,21 @@
+{
+    "name": "ChangeKeySound",
+    "desc_short": "Chnage Keyboard Sound",
+    "desc_long": "Change Keyboard Sound. You can use your sound file.",
+    "compatible": "11, 12 and 13",
+    "price": "Free",
+    "developer": "zunda",
+    "screenshot": "2",
+    "changelog": {
+        "1.0.2": {
+            "0": "Support all Album's.",
+            "1": "Support iOS 13."
+        },
+        "1.0.1": {
+            "0": "Support iOS 12."
+        },
+        "1.0": {
+            "0": "Initial Release."
+        }
+    }
+}

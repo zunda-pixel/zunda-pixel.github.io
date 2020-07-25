@@ -1,11 +1,11 @@
 {
     "name": "ChangeKeySound",
-    "desc_short": "Hide Album's On Photo App",
-    "desc_long": "On Album Section Tap Edit and Tap on Bookmark Icon and Hide/Show Any Album's.<br><br>No Options To Configure.",
+    "desc_short": "Chnage Keyboard Sound",
+    "desc_long": "Change Keyboard Sound. You can use your sound file.",
     "compatible": "11, 12 and 13",
     "price": "Free",
     "developer": "zunda",
-    "screenshot": "3",
+    "screenshot": "2",
     "changelog": {
         "1.0.2": {
             "0": "Support all Album's.",

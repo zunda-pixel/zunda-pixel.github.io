@@ -23,11 +23,11 @@ body {
     }
 
     .thumbnail {
-        height: 200px;
+        height: 400px;
     }
 }
 
-a {
+.links a {
     text-decoration: none;
     color: orange;
 }
@@ -43,7 +43,7 @@ h2 {
 .thumbnail img {
     text-align: center;
     width: 90%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     object-position: 0% 0%;
     border-radius: 40px;
@@ -106,6 +106,7 @@ h2 {
     border: none;
     height: 95%;
 }
+
 .information {
     width: 100%;
 }

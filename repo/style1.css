@@ -20,17 +20,18 @@ body {
 }
 
 a {
+    color: white;
     text-decoration: none;
-    color: #fffafa;
 }
 
-.twitter {
-    color: #00ffff;
+.recent_update a {
+    color: white;
 }
 
-.coffee {
-    color: #ffdab9;
+.links a {
+    color: orange;
 }
+
 
 .recent_update {
     overflow-x: auto;
@@ -78,8 +79,9 @@ a {
 
 
 .tweak_cell {
+    margin-right: 10px;
     display: grid;
-    grid-template-rows: 80% 10% 10%;
+    grid-template-rows: 1fr 10% 10%;
     grid-template-columns: 78% 1fr;
     grid-template-areas:
         " icon icon"
@@ -89,12 +91,13 @@ a {
 
 .icon {
     grid-area: icon;
-    margin-top: 25px;
     width: 100%;
     height: 150px;
     object-fit: cover;
     object-position: 0% 0%;
     border-radius: 10px;
+    padding: 0;
+    margin-bottom: -40px;
 }
 
 .name {
@@ -103,17 +106,17 @@ a {
 }
 
 .price {
+    padding: 0px 10px 0px 10px;
     grid-area: price;
     text-align: center;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     font-weight: bold;
     background-color: orange;
 }
 
 .developer {
     grid-area: developer;
-    font-weight: bold;
 }
 
 .links ul {
